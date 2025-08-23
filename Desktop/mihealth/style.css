@@ -5,6 +5,8 @@ body {
     background-color: #dddddd;
 }
 
+/* Header styles */
+
 .header {
     background-color: #f8f9fa;
     padding: 0 35px;
@@ -38,4 +40,34 @@ body {
     margin: 0 15px;
     color: #000000;
     text-decoration: none;
+}
+
+/* body styles */
+
+.main-content {
+    padding: 20px 20px 20px 40px; /* top right bottom left */
+    margin: 20px;
+}
+
+.be-healthy {
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px;
+}
+
+.description {
+    font-size: 30px;
+    color: #555555;
+    line-height: 1.5;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.browse-menu {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px;
+    cursor: pointer;
 }
