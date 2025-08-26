@@ -1,5 +1,6 @@
 body {
     font-family: 'Oswald', Arial, sans-serif;
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #dddddd;
@@ -44,18 +45,23 @@ body {
 }
 
 /* body styles */
-.container {
+main {
     display: flex;
-    justify-content: flex-start;
-    gap: 30px;
-    max-width: 700px;
-    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+}
+.main-content {
+    flex: 1;
+    max-width: 400px;
 }
 
 .be-healthy {
     font-size: 90px;
     font-weight: bold;
-    color: #000000;
+    margin-top: 0;
 }
 
 .description {
@@ -71,15 +77,14 @@ body {
 }
 /*image body styles */
 .images {
-    display: flex;
-    height: 800px; 
+    display: flex; 
     gap: 20px;
 }
 
 .images img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+    height: 580px;
+    width: 300px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -87,8 +92,9 @@ body {
 
 footer {
     background-color: #f8f9fa;
-    padding: 20px 50px;
+    padding: 20px 0px;
     text-align: center;
+    width: 100%;
 }
 
 footer p {
