@@ -17,7 +17,7 @@ body {
 }
 
 .header .logo {
-    margin-left: 35px;
+    margin-left: 25px;
     font-size: 45px;
     font-weight: bold;
 }
@@ -47,9 +47,9 @@ body {
 .container {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    gap: 40px;
-    max-width: 600px;
+    gap: 30px;
+    max-width: 700px;
+    background-color: black;
 }
 
 .be-healthy {
@@ -70,10 +70,18 @@ body {
     cursor: pointer;
 }
 /*image body styles */
-  .images {
+.images {
+    display: flex;
+    height: 800px; 
+    gap: 20px;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     border-radius: 8px;
-    display: inline-block;
-  }
+}
 
 /* Footer styles */
 
