@@ -80,15 +80,39 @@ main {
     display: flex; 
     gap: 20px;
 }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
 
-.images img {
+.image-container img {
     height: 580px;
     width: 300px;
     object-fit: cover;
     border-radius: 8px;
 }
 /* text on image */
-
+.meal-type {
+    position: absolute;
+    background-color: #28a745;
+    border-radius: 8px;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 25px;
+    right: 0;
+    bottom: 0;
+}
+.image-text {
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    right: 0;
+    bottom: 55px;
+}
 
 /* Footer styles */
 
