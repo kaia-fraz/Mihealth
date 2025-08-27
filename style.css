@@ -54,9 +54,10 @@ main {
     gap: 20px;
     padding: 10px;
     margin: 0 20px 0 20px;
+    flex-wrap: wrap;
 }
 .main-content {
-    flex: 1;
+    flex: 1 1 300px;
     max-width: 400px;
 }
 
@@ -81,6 +82,9 @@ main {
 .images {
     display: flex; 
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 2 1 500px;
 }
 .image-container {
     position: relative;
