@@ -3,7 +3,9 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #dddddd;
+    background: 
+    linear-gradient(rgba(59, 56, 56, 0.2), rgba(59, 56, 56, 0.2)),
+    url(geometric-leaves.png);
 }
 
 /* Header styles */
