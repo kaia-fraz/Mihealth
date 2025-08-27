@@ -119,20 +119,3 @@ main {
     right: 0;
     bottom: 55px;
 }
-
-/* Footer styles */
-
-footer {
-    background-color: #f8f9fa;
-    padding: 20px 0px;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-footer p {
-    margin: 0;
-    color: #777777;
-}
